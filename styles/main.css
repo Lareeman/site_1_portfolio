@@ -21,3 +21,126 @@ body {
     margin: 0 auto;
     padding: 0 250px;
 }
+
+.header {
+    background-size: cover;
+    background-image: url(../img/bg.jpeg);
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.header__inner {}
+
+.header__title {
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 5.71px;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__subtitle {
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.scroll {
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    padding-top: 41px;
+}
+
+
+.story {
+    padding: 50px 0;
+}
+
+.story_left {
+    max-width: 398px;
+    margin-right: 50px;
+}
+
+.story_title_2 {
+    letter-spacing: 0.2em;
+    color: #48555B;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 30px 0;
+}
+
+.story_title_2:after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #00A4E5;
+    display: block;
+    margin: 10px auto 0;
+}
+
+.story_inner {
+    display: flex;
+    justify-content: center;
+}
+
+.story_title_3 {
+    color: #48555B;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.accent-color {
+    color: #00A4E5;
+}
+
+.story_text {}
+
+.story_right {
+    display: flex;
+    align-items: flex-end;
+}
+
+.story_item {
+    padding: 15px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 140px;
+    height: 224px;
+    margin-right: 20px;
+    background-size: cover;
+}
+
+.story_item:nth-child(1) {
+    background-image: url(../img/we_plan.png);
+}
+
+.story_item:nth-child(2) {
+    background-image: url(../img/we_manage.png);
+}
+
+.story_item:nth-child(3) {
+    background-image: url(../img/we_build.png);
+    margin-right: 0px;
+}
